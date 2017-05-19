@@ -1,0 +1,61 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #888;
+}
+
+main {
+  background-color: #F7F7F7;
+  width: 60%;
+  margin: 30px auto;
+}
+
+header {
+
+}
+
+header p {
+  width: 90%;
+  padding-left: 50px;
+  margin-top: 0px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+header h1 {
+  padding-left: 50px;
+  padding-top: 30px;
+  margin-bottom: 0px;
+}
+
+header hr {
+  width: 95%;
+}
+
+input,textarea,select {
+  box-sizing: border-box;
+  width: 70%;
+  padding: 10px;
+  color: #888;
+}
+
+input[type='button'] {
+  color: #fff;
+  background-color: #E27575;
+  width: 30%;
+  height: 30px;
+  margin-left: 120px;
+}
+
+label {
+  display: inline-block;
+  text-align: right;
+  width: 100px;
+  padding-right: 10px;
+  margin-left: 10px;
+}
+
+textarea {
+  height: 200px;
+}
