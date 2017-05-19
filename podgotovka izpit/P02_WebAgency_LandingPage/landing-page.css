@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Kreon:400,700|Open+Sans:400,700');
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    /* Logo text: Kreon, 32px*/
+}
+
+.main-header {
+    background: url('Resourses/img/header-background.jpg')no-repeat center center fixed;
+    background-size: cover;
+    height: 650px;
+    color: #fff;
+}
+
+#logo {
+    float: left;
+    font-size: 32px;
+    font-family: 'Kreon';
+    margin: 10px;
+}
+
+.header-nav ul {
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.header-nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.header-nav ul li a {
+   text-decoration: none;
+    color: #fff;
+    margin-left: 40px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+}
+
+.header-nav ul li a:hover {
+    background-color: #f3464e;
+    border-radius: 5px;
+}
+
+.main-header #experts {
+    margin-top: 400px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.main-header h1 {
+    font-weight: 500;
+    width: 700px;
+    margin-left: 20px;
+    font-size: 3em;
+}
+/*===========================================================section1======================================*/
+.first-section article {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    margin-right: -2px;
+}
+
+#portfolio-article {
+    background-color: #f4474f;
+    height: 170px;
+}
+
+#results-article {
+    background-color: #31c7d8;
+    height: 170px;
+}
+
+.first-section div {
+    height: 100%;
+    float: left;
+}
+
+.first-section div img {
+    margin-top: 30%;
+    margin-left: 30px;
+}
+
+.first-section h4 {
+    text-transform: uppercase;
+}
+
+.first-section p {
+    font-size: 0.8em;
+    width: 78%;
+    margin-top: 40px;
+}
+/*===========================================================section2======================================*/
+.second-section h3 {
+    color: black;
+    font-family: 'Kreon';
+    font-size: 2em;
+    margin-left: 20px;
+}
+
+.second-section p {
+    margin-left: 20px;
+    width: 45%;
+}
+/*===========================================================section3======================================*/
+.third-section article {
+    width: 30%;
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.article23 {
+    border-left: 1px solid grey;
+}
+
+.third-section article img {
+    width: 50px;
+    padding-left: 20px;
+}
+
+.third-section article h6 {
+    font-size: 1em;
+    padding-left: 20px;
+}
+
+.third-section article p {
+    width: 90%;
+    padding-left: 20px;
+}
+/*===========================================================section4======================================*/
+.forth-section {
+    background-color: #f4474f;
+    height: 100px;
+}
+
+.forth-section p {
+    padding-top: 30px;
+}
+
+.forth-section p span {
+    color: #fff;
+    font-size: 2em;
+    margin-left: 150px;
+    margin-right: 500px;
+}
+
+.forth-section p button {
+    color: #f4474f;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+}
+
+.forth-section p button:hover {
+    color: black;
+    cursor: pointer;
+}
+/*===========================================================footer======================================*/
+footer {
+    text-align: center;
+}
