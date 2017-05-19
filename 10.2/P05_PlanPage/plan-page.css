@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato",sans-serif;
+  font-size: 14px;
+  background: linear-gradient(45deg,rgba(253,149,192,1) 0%,rgba(195,95,204,1) 38%,rgba(175,104,241,1)
+                             66%,rgba(175,104,241,1) 84%,rgba(168,125,255,1) 100%);
+}
+
+main {
+  height: 500px;
+  width: 66%;
+  margin: 0 auto;
+  background-color: #2d3154;
+  border-radius: 20px;
+}
+
+li {
+  display: inline-block;
+  width: 25%;
+  margin: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  height: 250px;
+}
+
+#basic-plan {
+  margin-left: 35px;
+  background: url(img/plan-background-basic.png) no-repeat;
+  background-size: 210px 120px;
+  background-color: white;
+}
+
+#pro-plan {
+  margin-left: 35px;
+  background: url(img/plan-background-pro.png) no-repeat;
+  background-size: 210px 120px;
+  background-color: white;
+}
+
+#med-plan {
+  margin-left: 35px;
+  background: url(img/plan-background-med.png) no-repeat;
+  background-size: 210px 120px;
+  background-color: white;
+}
+
+.title {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 280%;
+}
+
+.price {
+  font-size: 300%;
+  color: #2d3154;
+  margin-left: 20%;
+  margin-top: 25%;
+  margin-bottom: 0;
+}
+
+.plan {
+  color: #2d3154;
+  margin-left: 20%;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.select-plan {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 40%;
+  color: #ffffff;
+  background: linear-gradient(45deg,rgba(253,149,192,1) 0%,rgba(195,95,204,1) 38%,rgba(175,104,241,1)
+                              66%,rgba(175,104,241,1) 84%,rgba(168,125,255,1) 100%);
+}
+
+.chosen-plan {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 40%;
+  color: #ffffff;
+  background: linear-gradient(45deg,rgba(133,93,249,1) 0%,rgba(133,93,249,1) 38%,rgba(175,104,241,1)
+                              66%,rgba(175,104,241,1) 84%,rgba(168,125,255,1) 100%);
+}
+
+.information {
+  width: 50%;
+  margin-left: 10%;
+  font-size: 80%;
+  color: rgb(255, 255, 255);
+  margin-bottom: 50px;
+}
+
+.next-step {
+  position: relative;
+  left: 40%;
+}
+
+.continue {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  font-size: 110%;
+  background: linear-gradient(45deg,rgba(133,93,249,1) 0%,rgba(133,93,249,1) 38%,rgba(175,104,241,1)
+                              66%,rgba(175,104,241,1) 84%,rgba(168,125,255,1) 100%);
+}
+/*========================THE JUDGE WANTS THESE==========================================*/
+.card-type {
+  background-color: #ffffff;
+}

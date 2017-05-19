@@ -1,0 +1,144 @@
+body {
+  //background-color: rgba(245, 230, 254, 0.9);-grey
+  font-size: 20px;
+  background-image: url('images/bg.jpg');
+  background-size: cover;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+body > header {
+  background: linear-gradient(to right,  red 31%,green 31%,green 73%,blue 73%);
+  height: 50px;
+  text-align: center;
+  font-size: 200%;
+  line-height: 50px;
+  color: yellow;
+}
+
+nav {
+  background-color: rgba(245, 230, 254, 0.9);
+  width: 170px;
+  border-radius: 10px;
+  text-align: left;
+  height: 200px;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 800px;
+  float: left;
+}
+
+nav > header {
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  padding-top: 5px;
+}
+
+nav ul li {
+  list-style-image: url(images/a.png);
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+article {
+  background-color: rgba(245, 230, 254, 0.9);
+  width: 50%;
+  margin-top: 20px;
+  border-radius: 10px;
+  display: block;
+  float: right;
+  margin-right: 32%;
+}
+
+#webColors {
+  color: white;
+  background-color: red;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#RGBA {
+  color: white;
+  background-color: green;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+article:nth-child(3) > header {
+  color: white;
+  background-color: purple;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+article p {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+article p::first-letter {
+  font-weight: bold;
+  font-size: 200%;
+}
+
+article p::first-line {
+  font-style: italic;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 80%;
+  color: grey;
+  padding: 5px;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* latin-ext */
+@font-face {
+  font-family: 'Sansita';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sansita Regular'), local('Sansita-Regular'), url(https://fonts.gstatic.com/s/sansita/v1/OIg80uztPzTvmaigz6QbovY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Sansita';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sansita Regular'), local('Sansita-Regular'), url(https://fonts.gstatic.com/s/sansita/v1/hJSyxUQeTBqx_NJRx-g3LA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
