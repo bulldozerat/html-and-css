@@ -1,0 +1,98 @@
+@media screen and (max-width: 1150px) {
+  .wrap {
+      width: 100%;
+  }
+
+    .share {
+        padding-left: 20px;
+    }
+}
+
+/* на 640пх не хващя медията по някаква причина, тя почва от 570-580пх затова е тази медия която работи на 630пх поне при мен...*/
+@media (max-width: 700px) {
+    .wrap {
+        width: 100%;
+    }
+
+    #header-top-area > h2 {
+        display: none;
+    }
+
+    #header-top-area > h1 {
+        width: 125px;
+        display: block;
+    }
+
+    #header-middle-area {
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        clear: both;
+        padding: 10px;
+        width: 104%;
+        padding-right: 0;
+    }
+
+    #header-top-area {
+        margin-bottom: 40px;
+    }
+
+    #header-bottom-area > h3 {
+        border-bottom: 1px solid grey;
+        text-align: left;
+        font-size: 1.2em;
+        font-weight: bold;
+        padding-left: 40px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    #products-liked-list {
+        text-align: center;
+    }
+
+    .box:nth-child(2) article,
+    .box:nth-child(4) article{
+        display: none;
+    }
+
+    #products-suggestions-list {
+        text-align: center;
+    }
+
+    #products-suggestions-list .box:first-child article {
+        display: none;
+    }
+
+    footer {
+        height: 300px;
+    }
+
+    .wrap {
+        text-align: center;
+    }
+
+    .share {
+        float: none;
+        color: white;
+    }
+
+    .share a {
+        color: white;
+    }
+
+    .share strong {
+        display: inline-block;
+        vertical-align: bottom;
+    }
+
+    .email-newsletter {
+        float: none;
+    }
+
+    .copyright {
+        float: none;
+        text-align: center;
+    }
+}

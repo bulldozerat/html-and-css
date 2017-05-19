@@ -1,0 +1,91 @@
+@media screen and (max-width: 1200px) {
+    #wrapper {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    header,main {
+        width: 700px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    header nav > ul li {
+        width: 130px;
+        float: none;
+    }
+
+    header nav > ul {
+        margin: 0;
+    }
+
+    main > aside {
+        width: 95%;
+        margin-top: 0;
+    }
+
+    main section {
+        width: 92%;
+    }
+
+    header > p {
+        margin-bottom: 0;
+    }
+
+}
+
+@media screen and (max-width: 730px) {
+    header nav {
+        height: auto;
+    }
+
+    header nav > ul li {
+        display: block;
+        width: 100%;
+        border: 1px solid red;
+        float: none;
+    }
+
+    main {
+        clear: both;
+    }
+
+    header,main {
+        width: 80%;
+    }
+
+    header > p {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-size: 600px 300px;
+        border-bottom: none;
+    }
+
+    header > h1 {
+        padding-bottom: 20px;
+    }
+
+    main section{
+        float: none;
+    }
+
+    main section > div > div {
+        display: block;
+        float: none;
+        text-align: center;
+        background-color: greenyellow;
+    }
+
+    main > section > div  {
+        height: 350px;
+    }
+}
