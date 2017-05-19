@@ -1,0 +1,352 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  font-family: "Roboto",sans-serif;
+  color: #333333;
+}
+
+header,article,footer,section,nav {
+  margin: 0;
+  padding: 0;
+}
+
+/*===========================================================HEADER===========================================*/
+
+
+#bigHeader {
+  background: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+            url("img/header-bg.png")
+            no-repeat center;
+    background-size: cover;
+    color: white;
+}
+
+#headerNav {
+  height: 40px;
+}
+
+#headerNav ul {
+  float: right;
+  line-height: 40px;
+  margin: 0 30px 0 0;
+  padding-top: 20px;
+
+}
+
+#headerNav ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+#headerNav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px;
+  font-size: 1em;
+  color: white;
+}
+
+#headerNav ul li a:hover {
+  color: #fa692e;
+}
+
+#headerNav span {
+  line-height: 40px;
+  text-transform: uppercase;
+  font-size: 1em;
+  margin-left: 30px;
+  padding-top: 20px;
+  display: inline-block;
+}
+
+#headerSection {
+  margin-top: 14.5em;
+  text-align: center;
+}
+
+#headerSection header {
+  width: 40%;
+  height: 50px;
+  margin: 0 auto;
+  margin-bottom: 6em;
+  min-width: 270px;
+}
+
+#headerSection header h1 {
+  margin: 0;
+  text-align: left;
+}
+
+#headerSection header i {
+  float: right;
+  line-height: 50px;
+  margin-left: 20px;
+}
+
+.mainHeaderArticles {
+  display: inline-block;
+  vertical-align: top;
+  width: 290px;
+  margin-left: 20px;
+  height: 220px;
+}
+
+.mainHeaderArticles:hover {
+  border-bottom: 5px solid orange;
+}
+
+.mainHeaderArticles a {
+  color: #fff;
+}
+
+.mainHeaderArticles i {
+  float: left;
+}
+
+.mainHeaderArticles p {
+  padding-top: 80px;
+  text-align: left;
+  font-size: 1em;
+}
+
+#mHeaderArticleLast {
+  margin-bottom: 7em;
+}
+
+#mHeaderArticleLast:hover {
+  margin-bottom: 93px;
+}
+
+/*========================================================MAIN/SECTION1=================================================*/
+
+.section1 > article {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  margin-top: 4em;
+}
+
+#art1 {
+  text-align: right;
+  width: 150px;
+  margin-left: 20%;
+}
+
+#art1 p{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#art1 span{
+  text-transform: capitalize;
+  font-size: 0.8em;
+}
+
+#art2 {
+  width: 265px;
+  margin-left: 50px;
+}
+
+#art2 p {
+  font-weight: bold;
+  font-size: 1.1em;
+  padding-right: 5px;
+  border-top: 1px solid grey;
+  padding-top: 10px;
+}
+
+#art3,
+#art3 > img{
+  width: 270px;
+  margin-left: 50px;
+}
+
+/*========================================================MAIN/SECTION2=================================================*/
+.section2 {
+  color: #ffffff;
+  background-color: #3c3f49;
+  text-align: center;
+}
+
+.section2 h3 {
+  font-size: 1.1em;
+  width: 300px;
+  margin-left: 15%;
+  padding-top: 70px;
+}
+
+.section2 article {
+  display: inline-block;
+  width: 420px;
+  margin-right: 40px;
+  margin-top: 100px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.section2 article i {
+  background-color: #fa692e;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.section2 time {
+  font-weight: bold;
+  padding: 20px;
+}
+
+.section2 span {
+  display: inline-block;
+  padding-bottom: 80px;
+  text-transform: capitalize;
+}
+/*========================================================MAIN/SECTION3=================================================*/
+.section3 {
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.section3 header h3 {
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 220px;
+  text-align: left;
+  display: inline-block;
+}
+
+.section3 header span {
+  width: 540px;
+  display: inline-block;
+  margin-left: 5%;
+  font-size: 1em;
+  text-align: left;
+}
+
+.section3 article img {
+  width: 170px;
+}
+
+.section3 article {
+  width: 170px;
+  display: inline-block;
+  box-shadow: 10px 10px 15px -5px rgba(0,0,0,0.25);
+  vertical-align: top;
+  background-color: #FAFAFA;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.section3 article p {
+  text-transform: capitalize;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.section3 article span {
+  text-transform: uppercase;
+  color: #fa692e;
+  padding-left: 20px;
+  font-size: 0.9em;
+}
+
+.section3 i:hover {
+  color: #fa692e;
+}
+
+.section3 article a {
+  color: #333;
+  text-decoration: none;
+}
+/*========================================================MAIN/SECTION4===========================================*/
+.section4 {
+  background-color: #3B3F49;
+  height: 500px;
+  margin-top: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+.section4 article {
+  display: inline-block;
+  width: 60%;
+  border: 1px solid white;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.section4 h1 {
+  text-transform: uppercase;
+  font-size: 2.3em;
+  padding-top: 50px;
+  margin-bottom: 20px;
+}
+
+.section4 p {
+  width: 350px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.section4 button {
+  margin-left: 40px;
+  background-color: #fa692e;
+  border-radius: 20px;
+  color: #fff;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  margin-bottom: 40px;
+}
+
+.section4 button:hover {
+  background-color: #333333;
+}
+
+.section4 span {
+  display: inline-block;
+  border-bottom: 3px solid #fa692e;
+  width: 150px;
+  text-align: left;
+}
+/*========================================================FOOTER=================================================*/
+footer {
+  background-color: #282A30;
+  color: #fff;
+  text-align: right;
+  height: 60px;
+}
+
+footer p {
+  padding: 0px;
+  margin: 0px;
+}
+
+#codemesh {
+  float: left;
+  text-transform: uppercase;
+  line-height: 60px;
+  padding-left: 15px;
+}
+
+footer #rights {
+  text-align: left;
+  text-transform: uppercase;
+  padding-right: 5px;
+  width: 200px;
+  color: grey;
+  line-height: 60px;
+}
+/*=========================================judge fix================================*/
+#judgeFix {
+  display: none;
+}
