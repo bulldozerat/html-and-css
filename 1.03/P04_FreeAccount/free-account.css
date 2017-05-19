@@ -1,0 +1,114 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Tahoma,Helvetica,sans-serif;
+  background-color: #EEEEEE;
+}
+
+main {
+  width: 800px;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header {
+  margin: 0 auto;
+   width: 90%;
+   border-bottom: 1px solid grey;
+}
+
+.header h1 {
+  font-size: 24px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.header p {
+  width: 90%;
+  margin-left: 20px;
+}
+
+main > section {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  width: 40%;
+}
+
+main input {
+  display: block;
+  height: 25px;
+  width: 90%;
+}
+
+.fa-check {
+  padding: 3px;
+  background-color: #00FF00;
+  color: white;
+  position: absolute;
+  right: 35px;
+  top: 4px;
+}
+
+.fa-times {
+  padding: 3px;
+  background-color: #FF0500;
+  color: white;
+  position: absolute;
+  right: 35px;
+  top: 4px;
+}
+
+.mainPars {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+::-webkit-input-placeholder {
+  padding-left: 10px;
+}
+
+input[type="checkbox"] {
+  float: left;
+  width: 20px;
+  margin-top: 0px;
+}
+
+#checkboxPar {
+  font-size: 0.8em;
+  color: grey;
+}
+
+.accButton {
+  padding: 5px 30px;
+  font-weight: bold;
+  box-shadow: 2px 2px 10px grey;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.logInButton {
+  padding: 5px 20px;
+  font-weight: bold;
+  box-shadow: 2px 2px 10px grey;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+#forgotPassPar {
+  color: #EF8B93;
+  font-size: 0.8em;
+  margin: 10px 0px;
+}
+
+#forgotPassPar:hover {
+  text-decoration: underline;
+}
+
+button:hover {
+  background-color: #AFDF67;
+  cursor: pointer;
+}

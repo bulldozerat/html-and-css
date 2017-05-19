@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Extreme Sports</title>
+    <link rel="stylesheet" href="extreme-reservation.css">
+  </head>
+  <body>
+    <form>
+    <main>
+      <nav class="mainNav">
+        <ul>
+          <li id="paraglidingLi"><img src="images/paraglider-icon.png" /><a href="#">Paragliding</a></li>
+          <li><a href="#"><img src="images/sky-diver.png" class="navImg234"/>Skydiving</a></li>
+          <li><a href="#"><img src="images/climbing.png" class="navImg234"/>Climbing</a></li>
+          <li><a href="#"><img src="images/about-us.png" class="navImg234"/>About Us</a></li>
+        </ul>
+     </nav>
+
+     <section>
+         <fieldset>
+           <legend>Personal Info</legend>
+           <div class="iContainer">
+           <i class="fa fa-user" aria-hidden="true"></i>
+           <input type="text" placeholder="Enter your full name">
+           </div>
+           <div class="iContainer">
+           <i class="fa fa-envelope-open" aria-hidden="true"></i>
+           <input type="email" placeholder="Enter a valid e-mail">
+           </div>
+           <div class="iContainer">
+           <i class="fa fa-phone" aria-hidden="true"></i>
+           <input type="number" placeholder="Enter a phone number">
+           </div>
+         </fieldset>
+     </section>
+
+     <section>
+         <fieldset>
+          <legend>Flight Info</legend>
+
+       <p>Are flying for first time?</p>
+       <p id="radioPar">
+       <input type="radio"><span>Yes</span>
+       <input type="radio"><span>No</span>
+       <p>
+
+       <p>Choose Destination</p>
+       <select class="select">
+         <optgroup label="Bulgaria">
+           <option>Dobrostan</option>
+           <option>Sopot</option>
+           <option>Sofia</option>
+           <option>Bourgas</option>
+          </optgroup>
+
+         <optgroup label="Rest of the world">
+           <option>Nepal</option>
+           <option>Turkey<option>
+           <option>France</option>
+         </optgroup>
+       </select>
+
+          <p>Choose Date</p>
+          <input type="date">
+        </fieldset>
+     </section>
+
+     <footer>
+       <button id="redBtn">Clear</button>
+       <button id="greenBtn">Send</button>
+     </footer>
+    </main>
+    </form>
+  </body>
+</html>

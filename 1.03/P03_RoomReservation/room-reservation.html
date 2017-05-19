@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Room Reservation</title>
+    <link rel="stylesheet" href="room-reservation.css">
+  </head>
+  <body>
+    <main>
+        <header>
+          <h1>Room Reservation</h1>
+        </header>
+
+           <section class="basicInfoSection">
+             <div id="bosicInfoContainer">
+                 <h3>Basic Information</h3>
+                 <p>
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin
+                 blandit nec eu elit. Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros
+                 nec commodo.
+                 </p>
+              </div>
+
+                <div id="searchContainer">
+                 <label for="searchInput" id="searchLabel">Search</label>
+                 <input type="text" id="searchInput">
+                 <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+            </section>
+
+            <section class="mainSection">
+              <article class="detailsArticle">
+                 <h3>Personal Details</h3>
+                 <input type="text" placeholder="First Name">
+                 <input type="text" placeholder="Last Name">
+                 <input type="text" placeholder="Enater Email">
+               </article>
+
+              <article class="reservationArticle">
+                 <h3>Request a reservation</h3>
+
+                 <div class="selectContainer">
+                 <label for="select">Select a Room</label>
+                   <select id="select">
+                     <option>Room 1</option>
+                     <option>Room 2</option>
+                     <option>Room 3</option>
+                     <option>Room 4</option>
+                   </select>
+                 </div>
+
+                <div class="roomsContainer">
+                <label for="numberInput">Number of Rooms</label>
+                <input type="number" id="numberInput" placeholder="1">
+               </div>
+
+                 <div class="checkInContainer">
+                 <label for="checkIn">Check-In:</label>
+                 <input type="date" id="checkIn">
+               </div>
+
+                <div class="checkOutContainer">
+                 <label for="checkOut">Check-Out:</label>
+                 <input type="date" id="checkOut">
+               </div>
+               </article>
+
+               <article class="lastArticle">
+                 <button>book now</button>
+               </article>
+              </section>
+          </main>
+  </body>
+</html>

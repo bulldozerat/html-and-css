@@ -1,0 +1,175 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Arial","Helvetica",sans-serif;
+  font-size: 20px;
+  background: url("images/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #327DB7;
+}
+
+main {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.mainNav {
+  text-align: center;
+}
+
+.mainNav ul {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.mainNav ul li {
+  list-style: none;
+  display: inline-block;
+  width: 24%;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.mainNav ul li:hover {
+  background-color: #6EA6CC;
+}
+
+#paraglidingLi {
+  background-color: #6EA6CC;
+}
+
+.mainNav ul li a {
+  text-decoration: none;
+  color: #327DB7;
+  display: inline-block;
+  line-height: 60px;
+  padding-left: 0px;
+  font-weight: bold;
+}
+
+.mainNav  img {
+  width: 50px;
+  float: left;
+}
+
+.navImg234 {
+  margin-left: -40px;
+}
+
+main section {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-top: 10px;
+}
+
+fieldset {
+  border: 2px solid #327DB7;
+  border-radius: 20px;
+  height: 400px;
+}
+
+input,
+select {
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  border-radius: 25px;
+  outline: none;
+  border: 1px solid #327DB7;
+  background: rgba(255,255,255,0.5);
+  color: #327DB7;
+  height: 30px;
+}
+
+::-webkit-input-placeholder {
+  color: #327DB7;
+  font-size: 22px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+i {
+  color: black;
+  position: absolute;
+  opacity: 1.0;
+  left: 15px;
+  top: 7px;
+}
+
+
+.iContainer {
+  position: relative;
+  margin-top: 30px;
+}
+
+#radioPar {
+  height: 50px;
+}
+
+#radioPar > input[type='radio'] {
+  display: inline-block;
+  line-height: 50px;
+  width: 20px;
+}
+
+#radioPar > span {
+  display: inline-block;
+  line-height: 50px;
+}
+
+.select {
+  height: 45px;
+  font-size: 22px;
+}
+
+.select option {
+  font-size: 14px;
+  background-color: #BEE1E9;
+}
+
+.select optgroup {
+  background-color: #BEE1E9;
+}
+
+input[type='date'] {
+  text-align: center;
+}
+
+footer {
+  width: 98%;
+  margin-top: 5px;
+  text-align: right;
+}
+
+footer button {
+  font-size: 24px;
+  background: none;
+  outline: none;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#redBtn {
+  border: 1px solid #B40000;
+  color: #B40000;
+}
+
+#greenBtn {
+  border: 1px solid #00B200;
+  color: #00B200;
+}
+
+#redBtn:hover {
+  background-color: #B40000;
+  color: white;
+}
+
+#greenBtn:hover {
+  background-color: #00B200;
+  color: white;
+}

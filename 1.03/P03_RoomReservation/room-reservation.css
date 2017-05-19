@@ -1,0 +1,172 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Tahoma,Helvetica,sans-serif;
+  font-size: 13px;
+  background-color: #EBEBEB;
+}
+
+main {
+  min-width: 400px;
+}
+
+header {
+  background-color: #F1F1F1;
+  width: 70%;
+  color: #65ADE6;
+  margin: 0 auto;
+  height: 60px;
+}
+
+header > h1 {
+  font-size: 28px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 60px;
+}
+
+.basicInfoSection {
+  border-top: 1px dashed grey;
+  border-bottom: 1px dashed grey;
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+
+section  h3 {
+  font-size: 16px;
+}
+
+#bosicInfoContainer {
+  width: 70%;
+}
+
+#searchContainer {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+}
+
+#searchLabel {
+  display: block;
+  font-weight: bold;
+}
+
+#searchInput {
+  height: 20px;
+}
+
+#searchContainer i {
+  position: absolute;
+  bottom: 7px;
+  right: 10px;
+}
+
+.mainSection {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.mainSection > article {
+  float: left;
+  min-width: 200px;
+}
+
+.detailsArticle {
+  width: 50%;
+}
+
+.detailsArticle > input {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  height: 25px;
+}
+
+.detailsArticle  h3 {
+  margin-bottom: 0px;
+}
+
+.reservationArticle {
+  width: 49%;
+}
+
+.reservationArticle div {
+  display: inline-block;
+}
+
+.reservationArticle label {
+  display: block;
+}
+
+.reservationArticle h3 {
+  margin-bottom: 0px;
+}
+
+.selectContainer {
+  width: 60%;
+}
+
+#select {
+  width: 100%;
+  height: 25px;
+  margin-top: 5px;
+}
+
+.roomsContainer {
+  width: 38%;
+}
+
+#numberInput {
+  height: 20px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.checkInContainer {
+  width: 46%;
+  margin-right: 5px;
+}
+
+.checkInContainer > label {
+  margin-top: 5px;
+}
+
+#checkIn {
+  margin-top: 5px;
+  width: 100%;
+}
+
+.checkOutContainer {
+  width: 49%;
+}
+
+#checkOut {
+  margin-top: 5px;
+  width: 105%;
+}
+
+.lastArticle {
+  border-top: 1px dashed grey;
+  clear: both;
+  width: 100%;
+  text-align: right;
+}
+
+.lastArticle button {
+  text-transform: capitalize;
+  color: white;
+  background-color: #32A2E4;
+  padding: 5px 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.lastArticle button:hover {
+  background-color: #3BBC96;
+  cursor: pointer;
+}

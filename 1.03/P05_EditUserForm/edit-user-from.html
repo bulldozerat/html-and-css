@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Edit User Form</title>
+    <link rel="stylesheet" href="edit-user-from.css">
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <h1>EDIT USER</h1>
+      </header>
+
+     <form>
+      <section class="inputSection">
+        <p><label for="text1">Username</label></p>
+        <p>
+         <div id="deactivateContainer"><input type="checkbox">Deactivate</div>
+         <input type="text" id="text1">
+       </p>
+
+         <p><label for="email">Email</label></p>
+         <input type="email" id="email">
+
+         <p><label for="number">Phone number</label></p>
+         <input type="number" id="number">
+
+         <p><label for="">User type</label></p>
+         <input type="radio" name="userType"><div class="radioText">Broadband</div>
+         <input type="radio" name="userType"><div class="radioText">Radio</div>
+
+
+         <p><label for="password">Change Password</label></p>
+         <input type="password" id="password">
+
+         <p>Groups</p>
+         <div class="groupConrainer">
+         <div><input type="checkbox" name="group">All groups</div>
+         <div><input type="checkbox" name="group">Group 1</div>
+         <div><input type="checkbox" name="group">Group 2</div>
+         <div><input type="checkbox" name="group">Group 3</div>
+         <div><input type="checkbox" name="group"> Group 4</div>
+       </div>
+     </section>
+
+     <section class="contactsSection">
+        <span>Contacts</span>
+        <a href="#">See Contacts list</a>
+        <button id="cancelBtn">CANCEL</button>
+        <button id="savelBtn">SAVE</button>
+    </section>
+  </form>
+   </main>
+  </body>
+</html>
