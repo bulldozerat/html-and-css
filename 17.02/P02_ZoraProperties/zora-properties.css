@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: "Open Sans",Arial,sans-serif;
+  //"Comfortaa",sans-serif;
+  // background: #ff7739;(oranjevo/hover/button) #91a5af;(tumno sivo/button) #68bc69;(zeleno/buton)
+  // Colors: #b1bfc6;(svetlo siv)  #384850; #ff7739;(oranjev/button)
+}
+
+aside {
+  float: left;
+  width: 200px;
+  text-align: center;
+  background-color: #ffffff;
+  height: 900px;
+  margin-right: 30px;
+}
+
+aside header > img {
+  border-radius: 50%;
+  width: 90px;
+}
+
+aside header > h1 {
+  text-align: center;
+  font-family: "Comfortaa",sans-serif;
+  font-size: 200%;
+}
+
+aside header > p {
+  color: #b1bfc6;
+  text-transform: uppercase;
+  font-size: 90%;
+  margin-top: 5px;
+}
+
+nav ul li {
+  list-style: none;
+  text-align: left;
+}
+
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #b1bfc6;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+i {
+  padding-right: 5px;
+  margin-left: -25px;
+}
+
+.fa-angle-down {
+  margin-left: 5px;
+}
+/*===============================================================================================*/
+main {
+  background-color: #f3f5f7;
+  height: 900px;
+}
+
+main > header {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+h1 > span {
+  color: #b1bfc6;
+}
+
+p > span {
+  z-index: 1;
+  position: relative;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 5px 20px;
+  background-color: red;
+  border-radius: 20px;
+  left: -20px;
+  top: 40px;
+
+}
+
+main > header > h1 {
+  margin-right: 200px;
+  padding-left: 10px;
+  font-weight: lighter;
+}
+
+main > button {
+  background-color: #ff7739;
+  padding: 10px 15px;
+  color: #f3f5f7;
+  border-radius: 20px;
+  text-transform: uppercase;
+  float: right;
+  margin-top: 25px;
+  margin-right: 70px;
+}
+
+main > button:hover {
+  color: #ff7739;
+  background-color: #f3f5f7;
+  border: 1px solid #ff7739;
+}
+
+.parBold {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+/*================================================================*/
+section {
+  display: inline-block;
+  width: 23%;
+  background-color: #ffffff;
+  box-shadow: 8px 6px 17px -1px rgba(0,0,0,0.26);
+  margin-right: 33px;
+}
+
+.spanGrey {
+  background-color: #91a5af;
+}
+
+.spanGreen {
+  background-color: #68bc69;
+}
+
+.parBottom {
+  padding-left: 20px;
+  text-transform: capitalize;
+}

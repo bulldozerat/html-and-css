@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'OpenSans-ExtraBold',Helvetica,sans-serif;
+  //56px main headding
+  font-size: 16px;
+  background-color: #F0F0E8;
+  color: grey;
+}
+
+
+header {
+  text-align: center;
+}
+
+header > h1 {
+  color: #009288;
+  font-size: 56px;
+}
+
+header > p {
+  font-weight: bold;
+  font-size: 110%;
+}
+
+article {
+  width: 220px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 30px;
+  border-left: 5px solid #F0F0E8;
+}
+
+article:hover {
+  border-left: 5px solid #009288;
+  background-color: #F6F6F5;
+}
+
+ #article1 {
+  margin-left: 14%;
+}
+
+div {
+  font-size: 80%;
+  padding: 10px;
+}
+
+article > h3 {
+  margin-bottom: 0px;
+}

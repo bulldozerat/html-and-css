@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+body {
+  padding: 0;
+  margin: 0;
+  width: 1000px;
+  font-family: Tahoma,sans-serif;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #778495;
+}
+
+header > h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: normal;
+  font-family: Vollkorn,serif;
+  text-transform: uppercase;
+}
+
+article {
+  width: 301px;
+  border: 1px solid orange;
+  display: inline-block;
+  vertical-align: top;
+  height: 500px;
+  border: 1px solid #EBEFF2;
+}
+
+article > a {
+  text-decoration: none;
+  color: #778495;
+}
+
+#articleMargin {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+article a h2 {
+  font-size: 30px;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: normal;
+  background-color: #EBEFF2;
+  padding: 20px;
+  margin-top: 0;
+  font-family: Vollkorn,serif;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 60px;
+  text-align: center;
+  font-family: Vollkorn,serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+span {
+  display: block;
+  padding: 15px;
+  border-bottom: 1px solid #EBEFF2;
+  width: 80%;
+  margin-left: 15px;
+}
+
+button {
+  text-align: center;
+  width: 80%;
+  background-color: #DDDDDD;
+  border-radius: 10px;
+  padding: 15px 10px;
+  margin-left: 30px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+#btn1 {
+  margin-top: 173px;
+}
+
+#btn2 {
+  margin-top: 122px;
+}
+
+article:hover button,article:hover a > h2 {
+  background: #65D3E2;
+}
+
+article:hover p {
+  color: #65D3E2;
+}
