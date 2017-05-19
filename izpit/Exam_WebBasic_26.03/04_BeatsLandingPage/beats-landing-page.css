@@ -1,0 +1,235 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,900 ";
+body {
+    font-family: "Open Sans";
+    padding: 0;
+    margin: 0;
+    color: grey;
+    font-size: 16px;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/*==================NAV=======================*/
+.nav-main {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.nav-main ul li {
+    list-style: none;
+    display: inline-block;
+    width: 23%;
+}
+
+.nav-main ul li a {
+    text-decoration: none;
+    color: grey;
+    text-transform: uppercase;
+}
+
+.nav-main ul li a:hover {
+    border-bottom: 1px solid grey;
+    color: black;
+}
+/*==================MAIN-SECTION=======================*/
+.main-section .container {
+    float: left;
+    width: 350px;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+.main-section div {
+    display: inline-block;
+}
+
+.solo-img-container img {
+    height: 400px;
+    width: 550px;
+}
+
+.main-section .container h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #575757;
+}
+
+.main-section p {
+    font-size: 0.9em;
+    width: 90%;
+}
+
+/* не разбирам какво трябва да става при ховер освен пойнтер и ще го оставя така да не си съчинявям*/
+.main-section button {
+    background-color: #ff0000;
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.powerbeats-article {
+    clear: both;
+    margin-top: 50px;
+}
+
+.powerbeats-article div {
+    display: inline-block;
+}
+
+
+.powerbeats-img-container{
+    float: left;
+    width: 380px;
+}
+
+.powerbeats-img-container img {
+    padding-left: 20px;
+    float: left;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.text-container {
+    width: 600px;
+}
+
+.text-container h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    margin-top: 0;
+    color: #575757;
+    margin-bottom: 0;
+}
+
+#power-div {
+    padding-left: 45px;
+    text-transform: uppercase;
+}
+
+#power-div > span {
+    color: #575757;
+    font-weight: bold;
+}
+
+.text-container p {
+    width: 90%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#powerbrats-price {
+    font-size: 1.4em;
+    color: black;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+#buy-button {
+    padding: 10px 35px;
+}
+/*=======================FREE MUSIC SECTION=================*/
+.free-music-section {
+    clear: both;
+    background-color: #575757;
+    text-align: center;
+    height: 150px;
+    padding-bottom: 30px;
+    /*катринката е много малка и не мога да разбера точните цветове*/
+    color: darkgray;
+}
+
+.free-music-section p {
+    width: 60%;
+    margin: 10px auto 20px;
+    height: 80px;
+    text-align: left;
+    font-size: 1.3em;
+    padding-top: 20px;
+}
+
+.free-music-section p img {
+    float: left;
+    width: 60px;
+    padding-left: 100px;
+}
+
+#three-months {
+    line-height: 80px;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+#inner-span {
+    color: #fff;
+}
+
+#read-more {
+    color: #fff;
+    border-bottom: 1px solid grey;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+/*=======================GIVE LIFE SECTION=================*/
+
+.give-life {
+    background-color: #dadada;
+}
+
+.give-life article {
+    display: inline-block;
+    width: calc(50% - 3px);
+    height: 400px;
+    clear: both;
+    vertical-align: top;
+}
+
+#girl-img {
+    width: 100%;
+    height: 400px;
+}
+
+#headephones-img {
+    float: right;
+    width: 150px;
+    height: 350px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.grey-article h6 {
+    width: 200px;
+    font-size: 6em;
+    display: inline-block;
+    margin: 0;
+    text-transform: uppercase;
+    color: #333333;
+    padding-left: 70px;
+}
+
+.grey-article span {
+    clear: both;
+}
+
+#red-span {
+    color: #ff0000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#beats-red-span {
+    padding-left: 70px;
+    font-size: 2.2em;
+}
+
+/*=======================FOOTER=================*/
+#footer {
+   text-align: center;
+}

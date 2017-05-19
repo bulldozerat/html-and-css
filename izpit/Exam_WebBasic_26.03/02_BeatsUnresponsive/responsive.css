@@ -1,0 +1,61 @@
+/* на 770пх се чупи при мен.има бяло разстояние от горе и долу*/
+@media only screen and (max-width:770px) {
+    .second-row {
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .nav-primary {
+        display: block;
+        text-align: center;
+        padding: 10px 0 15px;
+    }
+
+    .nav-item {
+        padding: 10px;
+    }
+
+    .nav-item > a {
+        margin-right: 0;
+    }
+
+
+    .solo {
+        text-align: center;
+    }
+
+    .second-row {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        text-align: -webkit-center;
+    }
+
+    .mixr-left {
+        flex-grow: 1;
+
+    }
+
+    .urbeats-right {
+        flex-grow: 1;
+    }
+
+    .second-row h1 {
+        margin-top: 0;
+    }
+
+    .studio {
+        text-align: center;
+    }
+
+    .grid-gallery {
+        text-align: center;
+    }
+
+    .grid-gallery img {
+        display: inline-block;
+        width: 40%;
+    }
+}
