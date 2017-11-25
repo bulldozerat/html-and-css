@@ -1,0 +1,62 @@
+main {
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+div {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+}
+
+span {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.add(@w, @h, @z, @bg, @mt) {
+  width: @w;
+  height: @h;
+  z-index: @z;
+  background-color: @bg;
+  margin-top: @mt;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+
+  .brown {
+    .add(500px, 500px, 1, brown, 0);
+  }
+
+  .blue {
+  .add(400px, 400px, 2, blue, 50px);
+    left:50px;
+  }
+
+  .green {
+  .add(300px, 300px, 3, green, 100px);
+    left: 100px;
+  }
+
+  .yellow {
+  .add(200px, 200px, 4, yellow, 150px);
+    left: 150px;
+  }
+
+  .red {
+    .add(100px, 100px, 5, red, 200px);
+    left: 200px;
+    margin-top: 200px;
+
+    span {
+      margin-top: 37px;
+      display: inline-block;
+    }
+  }
+}
