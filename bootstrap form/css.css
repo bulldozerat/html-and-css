@@ -1,0 +1,12 @@
+.input-group > span {
+    background: none;
+    border-left:none;
+}
+
+.input-group  {
+    margin-bottom: 10px;
+}
+
+#click-par {
+    margin: 10px 0 20px;
+}
